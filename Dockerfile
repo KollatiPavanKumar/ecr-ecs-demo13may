@@ -1,6 +1,6 @@
 FROM openjdk:latest
 
-ADD target/springboot-docker-aws-ecs-0.0.1-SNAPSHOT springbootDockerapplication 
+ADD target/springboot-docker-aws-ecs-0.0.1-SNAPSHOT.jar springbootDockerapplication 
 
 ENTRYPOINT ["java","-jar","springbootDockerapplication"]
 
